@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "373813257215",
+    "firebase_url": "https://urbanaut.firebaseio.com",
+    "project_id": "urbanaut",
+    "storage_bucket": "urbanaut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373813257215:android:b59ba830a785b0ff6efdca",
+        "android_client_info": {
+          "package_name": "com.urbanaut.firebase.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373813257215-5jsr32ilnacm8s1brn1f7m89m91tjc80.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.urbanaut.firebase.firebasetest",
+            "certificate_hash": "8cc387fb5a3853caefcb9ad474c1e340b3d0459f"
+          }
+        },
+        {
+          "client_id": "373813257215-c220kfa2vetmgh40uuh2tci219kthv3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaWwl9GXNUTFdEbJM58Za9_shti10i8fE"
+        },
+        {
+          "current_key": "AIzaSyCXB1AnJMsUqX6pvSwp5mUNQdI2WhHtAqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373813257215-c220kfa2vetmgh40uuh2tci219kthv3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373813257215-oiahl6jiir52gfr9a7bfgfke32g99feh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Urbanaut",
+                "app_store_id": "1470241585"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373813257215:android:309d659a07895a7b6efdca",
+        "android_client_info": {
+          "package_name": "in.urbanaut.android.urbanaut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "373813257215-0k0gt4u6v0pt5im6ltp9rd0neh6cu76a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.urbanaut.android.urbanaut",
+            "certificate_hash": "30e37c1b28bbb87dfe305d74ddbfc5aff2e150cf"
+          }
+        },
+        {
+          "client_id": "373813257215-1riu0pfai37urto11l5ridmt6te39m2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.urbanaut.android.urbanaut",
+            "certificate_hash": "8eddd23a02bdd424d6c8d05439a1218e2197bf2c"
+          }
+        },
+        {
+          "client_id": "373813257215-e86eshau05nn8n29jg7vh8532n5agclc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.urbanaut.android.urbanaut",
+            "certificate_hash": "dacbdd44890154a23e9768023ba3b23ff3b1a217"
+          }
+        },
+        {
+          "client_id": "373813257215-po470ru6s52uut6824bdmeetefq3hpdi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.urbanaut.android.urbanaut",
+            "certificate_hash": "e32999956cc5d80971b8e085de3dd3d1c872038d"
+          }
+        },
+        {
+          "client_id": "373813257215-c220kfa2vetmgh40uuh2tci219kthv3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaWwl9GXNUTFdEbJM58Za9_shti10i8fE"
+        },
+        {
+          "current_key": "AIzaSyCXB1AnJMsUqX6pvSwp5mUNQdI2WhHtAqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "373813257215-c220kfa2vetmgh40uuh2tci219kthv3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "373813257215-oiahl6jiir52gfr9a7bfgfke32g99feh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Urbanaut",
+                "app_store_id": "1470241585"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

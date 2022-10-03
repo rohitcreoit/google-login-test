@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+      If you are serving your web app in a path other than the root, change the
+      href value below to reflect the base path you are serving from.
+
+      The path provided below has to start and end with a slash "/" in order for
+      it to work correctly.
+
+      For more details:
+      * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+      This is a placeholder for base href that will be replaced by the value of
+      the `--base-href` argument provided to `flutter build`.
+    -->
+    <base href="$FLUTTER_BASE_HREF">
+
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A new Flutter project.">
+    <meta name="google-signin-client_id"
+          content="989442927912-3v7p2ac7mr4j7hg0lemb07v69p1pvh8i.apps.googleusercontent.com">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="firebasetest">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>firebasetest</title>
+    <link rel="manifest" href="manifest.json">
+
+    <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+
+    </script>
+    <!-- This script adds the flutter initialization JS code -->
+    <script src="flutter.js" defer></script>
+
+    <script src="main.dart.js" type="application/javascript"></script>
+</head>
+<body>
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+<!-- Firebase Configuration -->
+<script>
+      var firebaseConfig = {
+      apiKey: "AIzaSyAMceg7Zz6xYq6t8fV7lC5-Hbj23_zOg-o",
+      authDomain: "urbanaut.firebaseapp.com",
+      databaseURL: "https://urbanaut.firebaseio.com",
+      projectId: "urbanaut",
+      storageBucket: "urbanaut.appspot.com",
+      messagingSenderId: "373813257215",
+      appId: "1:373813257215:web:af905e6d70ec46e06efdca",
+      measurementId: "G-P7X5GKG8EM"
+      };
+
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+
+</script>
+<script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+
+</script>
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
